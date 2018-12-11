@@ -1,0 +1,21 @@
+Package: rais
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person(given = "Tomás",
+           family = "Barcellos",
+           role = c("aut", "cre"),
+           email = "tomas.barcellos@gmail.com")
+Description: Le dados da RAIS.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat
+Imports: 
+    stringr,
+    readr,
+    magrittr,
+    dplyr,
+    tidyr
+RoxygenNote: 6.0.1
